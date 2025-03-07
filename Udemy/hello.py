@@ -3,6 +3,6 @@ def print_hi(name):
     print(f'Hi, {name}')
   
 # Press Ctrl+F8 to toggle the breakpoint.
-name = input("hello what is your name? ")nu
+name = input("hello what is your name? ")
 if __name__ == '__main__':
     print_hi(name)
