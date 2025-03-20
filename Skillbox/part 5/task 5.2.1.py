@@ -7,4 +7,4 @@ if x > y:
     print('X больше Y')
 if x < y:
   print('X меньше Y')
-    
+
