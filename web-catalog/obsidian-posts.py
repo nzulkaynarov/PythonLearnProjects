@@ -3,9 +3,9 @@ import os
 from notion_client import Client
 import datetime
 
-NOTION_TOKEN = "secret_Kafh5RzIJpHR9TjV1h6b7s2jblnKvzFCS5q2LjtZuMJ"
-NOTION_PAGE_ID = "e8c62c331daf4ae0a33d946e1b03ef70"
-DATABASE_ID = "3b703df52bc440b3be1ea494306f0d36"  # Замените на ID вашей базы данных
+NOTION_TOKEN = ""
+NOTION_PAGE_ID = ""
+DATABASE_ID = ""  # Замените на ID вашей базы данных
 
 client = Client(auth=NOTION_TOKEN)
 

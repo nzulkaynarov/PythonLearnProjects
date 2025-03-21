@@ -1,10 +1,19 @@
-cent_1 = int(input('введите вес первой монетки '))
-cent_2 = int(input('введите вес второй монетки '))
-cent_3 = int(input('введите вес третьей монетки '))
+start_sum = int(input("Введите стартовую сумму: "))
 
-if cent_1 == cent_2:
-  print('Третья легче')
-elif cent_1 == cent_3:
-  print('Вторая легче')
-else:
-  print('Первая легче')
+while x > 0:
+  x = int(input("Сколько выпало на кубике? "))
+  if x == 3:
+    start_sum = 0
+    print("Вы проиграли всё!")
+    break
+  
+    
+  print("Выиграли 500 рублей!")
+  print("Игра закончена.")
+  print("Итого осталось: ", start_sum, " рублей")
+
+if x == 3:
+  start_sum = 0
+  print("Вы проиграли всё!")
+  
+  

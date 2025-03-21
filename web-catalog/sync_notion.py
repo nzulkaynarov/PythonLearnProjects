@@ -10,8 +10,8 @@ import sys
 from notion.markdown import notion_to_markdown
 from notion_client import Client
 
-NOTION_TOKEN = "secret_Kafh5RzIJpHR9TjV1h6b7s2jblnKvzFCS5q2LjtZuMJ"
-NOTION_ROOT_PAGE_ID = "e8c62c331daf4ae0a33d946e1b03ef70"
+NOTION_TOKEN = ""
+NOTION_ROOT_PAGE_ID = ""
 
 if NOTION_TOKEN is None:
 	sys.exit("The NOTION_TOKEN is missing, see the readme on how to set it.")
