@@ -5,7 +5,7 @@ temp_sensor = -10
 
 while not stop_check:
     temp = int(input("Какая температура на датчике? "))
-    
+
     if temp == temp_sensor:
         print("Внимание: дублирующее значение температуры", temp, "обнаружено!")
         err_count += 1 
@@ -18,6 +18,5 @@ while not stop_check:
             temp_sensor = -10
 
     temp_sensor = temp
-    
-    
-    
+
+
