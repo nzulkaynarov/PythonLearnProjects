@@ -14,10 +14,7 @@ while not stop_check:
         if next_step == 0:
             print("Сбор данных остановлен!")
             stop_check = True
-        else:
-            temp_sensor = -10
+    else:
+        temp_sensor = temp
+ 
 
-    temp_sensor = temp
-    
-    
-    
