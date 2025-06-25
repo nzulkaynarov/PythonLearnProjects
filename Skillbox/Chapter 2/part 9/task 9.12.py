@@ -1,11 +1,4 @@
 import os
 
-def print_dirs(project):
-    print('\nСодержимое каталога', project)
-    for i_elem in os.listdir(project):
-        path = os.path.join(project, i_elem)
-        print('   ')
-
-project_list = 'Skillbox'
-
-print_dirs(project_list)
+for path in os.listdir('..'):
+    print(os.path.join(os.path.abspath('..'), path))
